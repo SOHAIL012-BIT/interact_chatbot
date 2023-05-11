@@ -3,7 +3,7 @@ const app = express();
 const { WebhookClient } = require("dialogflow-fulfillment");
 
 app.get("/", (req, res) => {
-  res.send("Hi from server!");
+  res.send("Hello!");
 });
 
 app.post("/", express.json(), (req, res) => {
